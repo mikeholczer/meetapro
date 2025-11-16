@@ -33,8 +33,25 @@ jobs:
       - name: checkout
         uses: actions/checkout@v4
 
-      - name: Create Site Directory
-        run: mkdir -p ./_site
+      - name: Build Markdown index
+        run: |
+          # ensure _site directory exists
+          mkdir -p ./_site
+          # find all .md files (case-insensitive), exclude README.md, sort
+          mapfile -t files < <(git ls-files -z | tr '\0' '\n' | grep -i '\.md$' | grep -vi '^readme\.md$' | sort)
+          # build index content
+          {
+            echo "# Index"
+            echo
+            for f in "${files[@]}"; do
+              # skip the generated index itself if present
+              [[ "$(basename "$f")" =~ ^index\.md$ ]] && continue
+              # convert .md -> .html for link target, escape spaces
+              target="${f%.[mM][dD]}.html"
+              # use relative path text and HTML target
+              echo "- [${f}](${target})"
+            done
+          } > ./index.md
         shell: bash
 
       - name: Convert to HTML
@@ -43,15 +60,15 @@ jobs:
           generate-html: true
           generate-pdf: false
           generate-pptx: false
-          
+
+      - name: debug
+        run: ls -la
+
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v4
-        
-      - name: debug
-        run: |
-          ls -la
-          ls -la _site
-          
+        with:
+          path: ./_site
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
