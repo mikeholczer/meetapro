@@ -40,7 +40,7 @@ jobs:
           mkdir -p ./_site/img
 
           # Copy images
-          cp -R img _site/img
+          cp -R img _site/
 
           # copy index.html
           cp index.html _site/index.html
