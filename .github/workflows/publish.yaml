@@ -41,8 +41,9 @@ jobs:
           generate-pptx: false
 
       - name: debug
-        run: ls -la
-        run: ls -la _site
+        run: |
+          ls -la
+          ls -la _site
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v4
