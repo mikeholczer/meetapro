@@ -33,25 +33,17 @@ jobs:
       - name: checkout
         uses: actions/checkout@v4
 
-      - name: Build Markdown index
+      - name: Create _site directory
         run: |
-          # ensure _site directory exists
+          # Create the directories
           mkdir -p ./_site
-          # find all .md files (case-insensitive), exclude README.md, sort
-          mapfile -t files < <(git ls-files -z | tr '\0' '\n' | grep -i '\.md$' | grep -vi '^readme\.md$' | sort)
-          # build index content
-          {
-            echo "# Index"
-            echo
-            for f in "${files[@]}"; do
-              # skip the generated index itself if present
-              [[ "$(basename "$f")" =~ ^index\.md$ ]] && continue
-              # convert .md -> .html for link target, escape spaces
-              target="${f%.[mM][dD]}.html"
-              # use relative path text and HTML target
-              echo "- [${f}](${target})"
-            done
-          } > ./index.md
+          mkdir -p ./_site/img
+
+          # Copy images
+          cp -R img _site/img
+
+          # copy index.html
+          cp index.html _site/index.html
         shell: bash
 
       - name: Convert to HTML
@@ -62,7 +54,11 @@ jobs:
           generate-pptx: false
 
       - name: debug
-        run: ls -la
+        run: |
+          ls -la
+          ls -la img
+          ls -la _site
+          ls -la _site/img
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v4

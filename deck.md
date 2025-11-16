@@ -3,7 +3,7 @@ marp: true
 theme: default
 paginate: true
 ---
-![bg left blur:3px](code.png)
+![bg left blur:3px](img/code.png)
 # Career Path & Work Experience of a Software Engineer
 ## Mike Holczer
 Application Architect
@@ -31,7 +31,7 @@ Application Architect
 - Mostly a game console, but if you didn't put a cartridge in you got a BASIC interpreter.
 - I copied BASIC code out of the manual (also how I learned to type)
 
-![bg right 100%](1280px-Atari-800XL.jpg)
+![bg right 100%](img/1280px-Atari-800XL.jpg)
 <!-- _footer: "Image By Evan-Amos - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=18553927" -->
 ---
 
