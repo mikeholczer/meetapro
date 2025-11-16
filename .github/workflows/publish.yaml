@@ -57,6 +57,7 @@ jobs:
       - name: Convert to HTML
         uses: KoharaKazuya/marp-cli-action@v4
         with:
+          config-file: .marprc.yaml
           generate-html: true
           generate-pdf: false
           generate-pptx: false
