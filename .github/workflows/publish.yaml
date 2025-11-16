@@ -43,16 +43,15 @@ jobs:
           generate-pdf: false
           generate-pptx: false
 
-      - name: debug
-        run: |
-          ls -la
-          ls -la _site
-
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v4
         with:
           path: ./_site
-
+          
+      - name: debug
+        run: |
+          ls -la
+          ls -la _site
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
