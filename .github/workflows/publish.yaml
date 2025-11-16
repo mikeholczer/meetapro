@@ -56,7 +56,9 @@ jobs:
       - name: debug
         run: |
           ls -la
+          ls -la img
           ls -la _site
+          ls -la _site/img
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v4
