@@ -33,6 +33,9 @@ jobs:
       - name: checkout
         uses: actions/checkout@v4
 
+      - name: Create Site Directory
+        run: mkdir -p ./_site
+
       - name: Convert to HTML
         uses: KoharaKazuya/marp-cli-action@v4
         with:
