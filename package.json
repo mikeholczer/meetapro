@@ -1,0 +1,8 @@
+{
+  "marp": {
+    "output": "./_site",
+    "bespoke": {
+      "progress": true
+    }
+  }
+}
