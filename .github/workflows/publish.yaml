@@ -35,6 +35,7 @@ jobs:
 
       - name: Create Site Directory
         run: mkdir -p ./_site
+        shell: bash
 
       - name: Convert to HTML
         uses: KoharaKazuya/marp-cli-action@v4
