@@ -1,25 +1,37 @@
 ---
 marp: true
 theme: default
-paginate: true
+paginate: false
 ---
+
 ![bg left blur:3px](img/code.png)
 # Career Path & Work Experience of a Software Engineer
 ## Mike Holczer
 Application Architect
 
+<style scoped>
+section::before {
+  display: block;
+  content: url('img/qr.png');
+  width: auto;
+  height: auto;
+
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+</style>
+
 ---
 
 ## Work Experience
+![bg left](img/Logos.png)
 
 - 25 years experince in software engineering
-- Mostly using .NET
-- Mostly web-based applications
-- Internships
-  - Sturdy Memorial Hospital
-  - S E A Consultants
+- Mostly using Web Apps with .NET
+- Short Summer Internships
 - Worked at
-  - The Walt Disney Resort / The Walt Disney Company
+  - The Walt Disney Resort
   - NGP Software / NGP VAN / EveryAction / Bonterra
   - Billhighway / re:Members
 
@@ -33,15 +45,15 @@ Application Architect
 
 ![bg right 100%](img/1280px-Atari-800XL.jpg)
 <!-- _footer: "Image By Evan-Amos - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=18553927" -->
+
 ---
 
 ## Computer Science Education
+![bg left](img/school.png)
 
-- Newton North High School, Newton, MA
-  - 2 Computer Science classes including AP
-- University of Michigan, Ann Arbor, MI (1 semester)
-  - EECS 101
-  - Participated in a research project in genetic programming
+- Newton North High School
+- University of Michigan
+  - 1 semester
 - Brandeis University, Waltham, MA
   - B.A. Computer Science
 
@@ -61,6 +73,8 @@ Application Architect
 ---
 
 ## What to Expect in Software Engineering
+
+![bg opacity:.4](img/office.jpg)
 
 ---
 
@@ -82,6 +96,8 @@ Application Architect
 - People will start asking you for help
 - You'll still need to ask others for help too
 - Take the lead on larger features and projects
+- 
+- Figure out what direction you want your career to take
 
 ---
 
@@ -123,6 +139,19 @@ Application Architect
 ---
 
 ## Q&A
+
+<style scoped>
+section::before {
+  display: block;
+  content: url('img/qr.png');
+  width: auto;
+  height: auto;
+
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+</style>
 
 ---
 
