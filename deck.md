@@ -95,23 +95,22 @@ section::before {
 
 - People will start asking you for help
 - You'll still need to ask others for help too
+- Improve how you solve problems when you see them again
+- You will be frustrated by your previous choices
 - Take the lead on larger features and projects
-- 
 - Figure out what direction you want your career to take
 
 ---
 
 ## Promotion Ladders
 
-- Technical Ladder
-  - Stay a software engineer
-  - Continue to improve your craft
-  - Provide technical leadership
-  - Senior/Principal/Partner Software Engineer
-  - Senior/Principal/Partner Architect
-- Management Ladder
-  - Lead teams of engineers
-  - Team Lead, Manager, Director of Engineering, VP of Engineering, CTO
+||Technical|Management|
+|-|-|-|
+|Types of Decisions|Technical and Architectual|Prioritization and Resource Allocation|
+|Leadership|Provide technical leadership and expertise on application(s)|Manage team(s) of developers|
+|Daily Tasks|Writing code, reviewing code, helping other engineers|Planning Meetings, Business Meetings, Managing People|
+|Titles| Senior/Principal/Partner Engineer/Architect|Team Lead, Engineering Manager, Director of Engineering, VP of Engineering, CTO|
+
 ---
 
 ## Day in the Life
