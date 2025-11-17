@@ -80,6 +80,8 @@ section::before {
 
 ## Entry Level Role Experience
 
+![bg opacity:.2](img/office.jpg)
+
 - Work on a team
 - Generally get specific small tasks
 - It's great if you can work and solve problems independently
@@ -92,6 +94,8 @@ section::before {
 ---
 
 ## As You Gain Experience
+
+![bg opacity:.2](img/office.jpg)
 
 - People will start asking you for help
 - You'll still need to ask others for help too
@@ -115,6 +119,8 @@ section::before {
 
 ## Day in the Life
 
+![bg opacity:.2](img/office.jpg)
+
 - Collaborate with Product on problems we need to solve
 - Figure out how to solve them efficiently
 - Implement the solutions
@@ -124,6 +130,8 @@ section::before {
 ---
 
 ## Advice
+
+![bg opacity:.2](img/office.jpg)
 
 - Getting a foundation in Computer Science concepts is very helpful
 - There is no substitute for actually building things
@@ -138,6 +146,8 @@ section::before {
 ---
 
 ## Q&A
+
+![bg opacity:.4](img/office.jpg)
 
 <style scoped>
 section::before {
