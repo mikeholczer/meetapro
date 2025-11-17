@@ -25,13 +25,13 @@ section::before {
 ---
 
 ## Work Experience
-![bg left](img/Logos.png)
+![bg w:100% left:40%](img/Logos.png)
 
 - 25 years experince in software engineering
 - Mostly using Web Apps with .NET
 - Short Summer Internships
 - Worked at
-  - The Walt Disney Resort
+  - The Walt Disney World Resort
   - NGP Software / NGP VAN / EveryAction / Bonterra
   - Billhighway / re:Members
 
@@ -43,13 +43,13 @@ section::before {
 - Mostly a game console, but if you didn't put a cartridge in you got a BASIC interpreter.
 - I copied BASIC code out of the manual (also how I learned to type)
 
-![bg right 100%](img/1280px-Atari-800XL.jpg)
+![bg right:33% 100%](img/1280px-Atari-800XL.jpg)
 <!-- _footer: "Image By Evan-Amos - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=18553927" -->
 
 ---
 
 ## Computer Science Education
-![bg left](img/school.png)
+![bg 100% left:33%](img/school.png)
 
 - Newton North High School
 - University of Michigan
