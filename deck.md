@@ -99,6 +99,7 @@ section::before {
 
 - People will start asking you for help
 - You'll still need to ask others for help too
+- It's likely you will be part of a on-call rotation
 - Improve how you solve problems when you see them again
 - You will be frustrated by your previous choices
 - Take the lead on larger features and projects
@@ -126,6 +127,12 @@ section::before {
 - Implement the solutions
 - Figure out how new technologies work
 - Make and correct mistakes
+
+## Current Project
+
+- AI Chat Agent and MCP Server
+  - Allows users to interact with their data through natural language
+  - Users can use it with the LLM of their choice to help them analyze, interact and visualize there data
 
 ---
 
