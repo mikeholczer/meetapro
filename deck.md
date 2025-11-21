@@ -8,6 +8,7 @@ paginate: false
 # Career Path & Work Experience of a Software Engineer
 ## Mike Holczer
 Application Architect
+https://meetapro.holczer.com
 
 <style scoped>
 section::before {
@@ -24,7 +25,7 @@ section::before {
 
 ---
 
-## Work Experience
+# Work Experience
 ![bg w:100% left:40%](img/Logos.png)
 
 - 25 years experince in software engineering
@@ -48,7 +49,7 @@ section::before {
 
 ---
 
-## Computer Science Education
+# Computer Science Education
 ![bg 100% left:33%](img/school.png)
 
 - Newton North High School
@@ -72,13 +73,13 @@ section::before {
 
 ---
 
-## What to Expect in Software Engineering
+# What to Expect in Software Engineering
 
 ![bg opacity:.4](img/office.jpg)
 
 ---
 
-## Entry Level Role Experience
+# Entry Level Role Experience
 
 ![bg opacity:.2](img/office.jpg)
 
@@ -93,7 +94,7 @@ section::before {
 
 ---
 
-## As You Gain Experience
+# As You Gain Experience
 
 ![bg opacity:.2](img/office.jpg)
 
@@ -107,7 +108,7 @@ section::before {
 
 ---
 
-## Promotion Ladders
+# Promotion Ladders
 
 ||Technical|Management|
 |-|-|-|
@@ -118,7 +119,7 @@ section::before {
 
 ---
 
-## Day in the Life
+# Day in the Life
 
 ![bg opacity:.2](img/office.jpg)
 
@@ -128,7 +129,7 @@ section::before {
 - Figure out how new technologies work
 - Make and correct mistakes
 
-## Current Project
+# Current Project
 
 - AI Chat Agent and MCP Server
   - Allows users to interact with their data through natural language
@@ -136,23 +137,50 @@ section::before {
 
 ---
 
-## Advice
+# Advice
+
+![bg opacity:.4](img/office.jpg)
+
+---
 
 ![bg opacity:.2](img/office.jpg)
 
 - Getting a foundation in Computer Science concepts is very helpful
+  - If you understand the concepts, learning new technologies will be easier 
 - There is no substitute for actually building things
   - Build projects
   - Make mistakes and *learn how to fix them*
-- Stay curious, but also pragmatic
-  - Boring code is good
-  - Don't over architect
-  - Understand user needs
-- If an interviewer is good, they are hoping you will do well
+  - When you get stuck search for help
+    - Talk with friends, co-workers
+    - Stackoverflow.com is a great resource
+    - AI can be a good help (Math class calculator rule applies)
 
 ---
 
-## Q&A
+![bg opacity:.2](img/office.jpg)
+
+- Stay curious, but also pragmatic
+  - Boring code is good
+  - The goal is working software
+  - Stay up-to-date, but be wary of the latest trends
+  - Don't over architect
+  - Understand user needs
+  - Legacy means something has been running in production for a long time
+
+---
+
+![bg opacity:.2](img/office.jpg)
+
+- Interviewing
+  - If an interviewer is good, they are hoping you will do well
+  - Be honest about what you know
+  - Walk through questions outloud
+  - Ask for clarification if you aren't sure what's being asked
+  - If you don't know how to solve the whole problem, show the parts you can
+
+---
+
+# Q&A
 
 ![bg opacity:.4](img/office.jpg)
 
