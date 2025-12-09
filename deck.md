@@ -141,7 +141,7 @@ section::before {
 
 ---
 
-> # The problem with telling a UDP joke over TCP is not everyone gets them, and they don't get funnier when you repeat them.
+> # Never tell a UDP joke over TCP, not everyone with get it, and it's worse every time you repeat it
 
 ---
 
