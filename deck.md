@@ -73,6 +73,10 @@ section::before {
 
 ---
 
+> # The two hardest problems in software engineering are naming, cache invalidation and off-by-one errors
+
+---
+
 # What to Expect in Software Engineering
 
 ![bg opacity:.4](img/office.jpg)
@@ -134,6 +138,10 @@ section::before {
 - AI Chat Agent and MCP Server
   - Allows users to interact with their data through natural language
   - Users can use it with the LLM of their choice to help them analyze, interact and visualize there data
+
+---
+
+> # The problem with telling a UDP joke over TCP is not everyone gets them, and they don't get funnier when you repeat them.
 
 ---
 
