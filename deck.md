@@ -141,13 +141,14 @@ section::before {
 
 ---
 
-> # Never tell a UDP joke over TCP, not everyone with get it, and it's worse every time you repeat it
+> # Never tell a UDP joke over TCP, not everyone will get it, and you don't have time to keep repeating yourself.
 
 ---
 
 # Advice
+> ## A key skill in software engineering is learning to learn the skills you need for your next task
 
-![bg opacity:.4](img/office.jpg)
+![bg opacity:.2](img/office.jpg)
 
 ---
 
@@ -157,10 +158,10 @@ section::before {
   - If you understand the concepts, learning new technologies will be easier 
 - There is no substitute for actually building things
   - Build projects
-  - Make mistakes and *learn how to fix them*
+  - Make mistakes and **learn how to fix them**
   - When you get stuck search for help
     - Talk with friends, co-workers
-    - Stackoverflow.com is a great resource
+    - Web search will probably find stackoverflow.com results
     - AI can be a good help (Math class calculator rule applies)
 
 ---
@@ -173,7 +174,7 @@ section::before {
   - Stay up-to-date, but be wary of the latest trends
   - Don't over architect
   - Understand user needs
-  - Legacy means something has been running in production for a long time
+  - **Legacy** means something has been running in production for a long time
 
 ---
 
