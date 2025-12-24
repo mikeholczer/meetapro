@@ -141,7 +141,11 @@ section::before {
 
 ---
 
-> # Never tell a UDP joke over TCP, not everyone will get it, and you don't have time to keep repeating yourself.
+> # Never tell a UDP joke over TCP.
+
+---
+
+> # Never tell a UDP joke over TCP.
 
 ---
 
